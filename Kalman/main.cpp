@@ -1,9 +1,14 @@
 #include<iostream>
+#include"Test/test.h"
+
 
 using namespace std;
 
 int main() {
 
-	cout << "hello world!" << endl;
+
+	task_sensor();
+
+	cout << "Processing End!" << endl;
 	return 0;
 }

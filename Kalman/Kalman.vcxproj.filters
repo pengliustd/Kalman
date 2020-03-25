@@ -5,18 +5,95 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DSS_Timer">
+      <UniqueIdentifier>{75288d62-a4b1-4c9b-8d45-6198747bd1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="DSS_Math">
+      <UniqueIdentifier>{d273f78d-1b5e-4a7e-92ad-227397b1e086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSG">
+      <UniqueIdentifier>{f0992248-77d0-409f-98a3-175d96354b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors">
+      <UniqueIdentifier>{a3e1bca1-16de-43f2-bd58-fa50ea191933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estimator">
+      <UniqueIdentifier>{0110934e-d6ba-40f3-8551-cb36bfb2f948}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DSS_Timer\time_simulation.cpp">
+      <Filter>DSS_Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="DSS_Math\geo.cpp">
+      <Filter>DSS_Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensors\sensor_from_txt.cpp">
+      <Filter>Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="Estimator\estimator_interface.cpp">
+      <Filter>Estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="Estimator\ekf.cpp">
+      <Filter>Estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="Estimator\estimator.cpp">
+      <Filter>Estimator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DSS_Timer\time_simulation.h">
+      <Filter>DSS_Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\test.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="DSS_Math\euler.hpp">
+      <Filter>DSS_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DSS_Math\quaternion.hpp">
+      <Filter>DSS_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DSS_Math\ring_buffer.hpp">
+      <Filter>DSS_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MSG\message.hpp">
+      <Filter>MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="MSG\msgsensor.h">
+      <Filter>MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="MSG\msgstate.h">
+      <Filter>MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="DSS_Math\geo.h">
+      <Filter>DSS_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensors\sensor_from_txt.h">
+      <Filter>Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="Estimator\estimator_interface.h">
+      <Filter>Estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="Estimator\ekf.h">
+      <Filter>Estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="Estimator\estimator.h">
+      <Filter>Estimator</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

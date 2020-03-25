@@ -116,7 +116,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DSS_Math\geo.cpp" />
+    <ClCompile Include="DSS_Timer\time_simulation.cpp" />
+    <ClCompile Include="Estimator\ekf.cpp" />
+    <ClCompile Include="Estimator\estimator.cpp" />
+    <ClCompile Include="Estimator\estimator_interface.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sensors\sensor_from_txt.cpp" />
+    <ClCompile Include="Test\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DSS_Math\euler.hpp" />
+    <ClInclude Include="DSS_Math\geo.h" />
+    <ClInclude Include="DSS_Math\quaternion.hpp" />
+    <ClInclude Include="DSS_Math\ring_buffer.hpp" />
+    <ClInclude Include="DSS_Timer\time_simulation.h" />
+    <ClInclude Include="Estimator\ekf.h" />
+    <ClInclude Include="Estimator\estimator.h" />
+    <ClInclude Include="Estimator\estimator_interface.h" />
+    <ClInclude Include="MSG\message.hpp" />
+    <ClInclude Include="MSG\msgsensor.h" />
+    <ClInclude Include="MSG\msgstate.h" />
+    <ClInclude Include="Sensors\sensor_from_txt.h" />
+    <ClInclude Include="Test\test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
